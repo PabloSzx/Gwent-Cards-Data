@@ -1,0 +1,3 @@
+[submodule "gwent-data-release"]
+	path = gwent-data-release
+	url = https://github.com/GwentCommunityDevelopers/gwent-data-release
