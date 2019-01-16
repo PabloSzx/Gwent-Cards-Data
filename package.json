@@ -6,7 +6,8 @@
   "author": "PabloSzx <pablosaez1995@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "git submodule init && git submodule update && babel-node index.js --presets=es2015"
+    "start":
+      "git submodule update --init && git submodule foreach git pull origin master && babel-node index.js --presets=es2015"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
